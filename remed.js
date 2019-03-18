@@ -1,4 +1,4 @@
-//Menentukan Array
+// A. Menentukan Array untuk masukan angka
 arrKu = []
 
 do{
@@ -12,7 +12,7 @@ do{
 
 console.log(arrKu);
 
-//Menentukan nilai min dan nilai max
+// B. Menentukan nilai min dan nilai max
 var numMin
 var numMax
 
@@ -32,7 +32,7 @@ for (i=0; i < arrKu.length; i++){
 
 console.log ("Nilai tertinggi: "+numMax)
 
-// Menentukan angka ganjil
+// C. Menentukan angka ganjil
 
 var ganjil = []
 var genap = []
@@ -51,7 +51,7 @@ for (i=0; i < arrKu.length; i++) {
 }
 console.log(ganjil)
 
-//menentukan rata - rata dan jumlah
+//D. menentukan rata - rata dan jumlah
     //rata -rata genap
 var sum = genap.reduce((previous, current)=> current =+previous)
 var avg = sum / genap.length
