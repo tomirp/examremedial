@@ -11,6 +11,13 @@ do{
 } while(true) 
 
 console.log(arrKu);
+    // Sort angka dari terkecil ke tertinggi
+
+    var ArrSort = arrKu.sort((a,b)=>{
+    return a-b})
+
+console.log(ArrSort);
+
 
 // B. Menentukan nilai min dan nilai max
 var numMin
